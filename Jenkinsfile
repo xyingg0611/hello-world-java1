@@ -32,7 +32,7 @@ pipeline {
 post {
         always {
             echo 'Cleaning up workspace'
-            deleteDir() // Clean up the workspace after the build
+            deleteDir() // Clean up the workspace after the build vvvv
         }
         success {
             echo 'Build succeeded!!'
